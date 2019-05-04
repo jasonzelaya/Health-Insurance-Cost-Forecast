@@ -6,8 +6,7 @@ The purpose of the analysis is to predict individual medical costs billed by hea
 * Madeleine Merken
 * Shannon Chang
 ### Data Source
-Kaggle
-https://www.kaggle.com/mirichoi0218/insurance
+Kaggle: https://www.kaggle.com/mirichoi0218/insurance
 ### Data Content
 * age: age of primary beneficiary
 * sex: insurance contractor gender, male/female
