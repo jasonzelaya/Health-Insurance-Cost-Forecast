@@ -1,6 +1,6 @@
 # Insurance Forecast
 ## Objective
-The purpose of the analysis is to predict individual medical costs billed by health insurance based on sex/bmi/smoking/region by using linear regression. 
+The purpose of the analysis is to predict individual medical costs billed by health insurance based on sex/bmi/smoking/region by using linear regression. Since the model should conform to the assumptions of linear regression to actually be usable in practice, we examine the data set to check the regression model is linear in parameters, the mean of residuals is zero, there is homoscedasticity of residuals, and has no autocorrelation of residuals.
 ### Team Members
 * Jason Zelaya
 * Madeleine Merken
