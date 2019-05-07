@@ -20,5 +20,5 @@ Since the model should conform to the assumptions of linear regression to actual
 * The mean of residuals is zero
 * Homoscedasticity of residuals or equal variance
 * No autocorrelation of residuals
-### ML algorithm Validation
+### ML Algorithm Validation
 Supervised learning using linear regression
