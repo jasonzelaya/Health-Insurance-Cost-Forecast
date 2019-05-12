@@ -7,7 +7,7 @@ df = read.csv('insurance_cleaned.csv', stringsAsFactors = FALSE)
 par(mfrow=c(2,2))
 
 ## Build the linear model. Exclude the sex_male and smoker_yes columns because they are dummy variables
-mod <- lm(charges ~ age + bmi + sex_female + smoker_no + region_northeast + region_northwest + region_southeast + region_southwest, data = df)
+mod <- lm(charges ~ age + bmi + children + sex_female + smoker_no + region_northeast + region_northwest + region_southeast + region_southwest, data = df)
 
 ## Plot the model to check assumptions
 plot(mod)
