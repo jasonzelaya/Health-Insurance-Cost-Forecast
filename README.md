@@ -12,15 +12,15 @@ The purpose of this analysis is to predict individual health insurance costs cha
 Kaggle: https://www.kaggle.com/mirichoi0218/insurance
 
 ## Data Content
-**Note: The individual paying for the health insurance will be referred to as the "beneficiary" in the following definitions.
+* Age: Age of the beneficiary in years.
+* Sex: Whether the beneficiary is male or female.
+* BMI: Body mass index derived from the weight and height of an individual. A healthy BMI is generally known to be from 18.5 to 24.9.
+* Children: Number of dependents covered by health insurance.
+* Smoker: Whether or not the beneficiary smokes.
+* Region: The beneficiary's residential area in the US. The categories are northeast, southeast, southwest, northwest.
+* Charges: The price the beneficiary pays the health insurance companies in USD.
 
-* Age: age of the beneficiary in years
-* Sex: whether the beneficiary is male or female
-* BMI: body mass index derived from the weight and height of an individual. A healthy BMI is generally known to be from 18.5 to   24.9 BMI
-* Children: number of dependents covered by health insurance
-* Smoker: whether or not the beneficiary smokes
-* Region: the beneficiary's residential area in the US. The categories are northeast/southeast/southwest/northwest
-* Charges: the price the beneficiary pays the health insurance companies in USD
+**Note: The individual paying for the health insurance is referred to as the "beneficiary" in the definitions.
 
 ## Underlying Assumptions
 The model should conform to the assumptions of linear regression to be usable in practice. To confirm this we  will examine the data set to check:
