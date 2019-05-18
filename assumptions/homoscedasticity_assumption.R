@@ -17,3 +17,8 @@ plot(mod)
 ## can be accepted
 
 ## Conclusion: The condition of homoscedasticity can be accepted
+
+
+
+#modAge <- lm(charges ~ age, data = df)
+#plot(modAge)

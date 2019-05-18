@@ -1,0 +1,75 @@
+USE GRAPHS:
+1) random forest tree (1) --- COMPLETE
+2) histogram [with noramlization curve] (1) --- COMPLETE
+3) box plot (10) --- COMPLETE
+4) scatter plot with single line (9) --- COMPLETE
+5) heatmap (1) --- COMPLETE
+7) sns.pairplot(df_data) --- COMPLETE
+
+6) 2 scatter plots with best fit line for residual clusters (1 pair)
+    -individual scatter plots for residuals each independent variable
+
+
+
+-possibly include BMI chart image
+-fitted residuals?
+
+
+PRESENTATION:
+1) separate regional analysis
+    -https://www.kaggle.com/janiobachmann/patient-charges-clustering-and-regression
+        V. Regional Analysis:
+            a) Building a Contingency Table
+            b) Average Patient Charge by Region 
+            c) Average charge by region depending on weight condition 
+    
+    
+-possibly see how independent variables are related. ex. if age has an effect on bmi (example uses ANOVA)
+
+
+
+-round metrics
+-figure out region columns
+-graphs
+    -bar chart
+    -bar chart with noramlize curve
+    -line chart
+    -box plot
+    -possibly include BMI chart image
+    
+  -https://www.kaggle.com/hely333/eda-regression
+    -#non - smokers
+        p = figure(plot_width=500, plot_height=450)
+        p.circle(x=data[(data.smoker == 0)].age,y=data[(data.smoker == 0)].charges, size=7, line_color="navy", fill_color="pink", 
+        fill_alpha=0.9)
+        show(p)
+    -#smokers
+        p = figure(plot_width=500, plot_height=450)
+        p.circle(x=data[(data.smoker == 1)].age,y=data[(data.smoker == 1)].charges, size=7, line_color="navy", fill_color="red", 
+        fill_alpha=0.9)
+        show(p)
+    -sns.lmplot(x="age", y="charges", hue="smoker", data=data, palette = 'inferno_r', size = 7)
+    ax.set_title('Smokers and non-smokers')
+    -# bar chart with normalize curve
+    pl.figure(figsize=(12,5))
+    pl.title("Distribution of bmi")
+    ax = sns.distplot(data["bmi"], color = 'm')
+    -# 2 lines
+    pl.figure(figsize=(10,6))
+    ax = sns.scatterplot(x='bmi',y='charges',data=data,palette='magma',hue='smoker')
+    ax.set_title('Scatter plot of charges and bmi')
+    sns.lmplot(x="bmi", y="charges", hue="smoker", data=data, palette = 'magma', size = 8)
+    
+    ***use this link for presentation***
+   -https://www.kaggle.com/janiobachmann/patient-charges-clustering-and-regression
+   -potentially include contingency table for regions
+   -possibly include average charge per region
+   
+   
+   
+   
+   
+   
+   
+   
+   -https://www.kaggle.com/grosvenpaul/regression-eda-and-statistics-tutorial

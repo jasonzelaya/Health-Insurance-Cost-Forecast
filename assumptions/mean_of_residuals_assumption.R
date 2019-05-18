@@ -9,3 +9,8 @@ mean(mod$residuals)
 
 ## Result: -5.173234e-13
 ## Conclusion: The assumption that the mean of residuals is close to zero holds true
+
+
+
+#modAge <- lm(charges ~ age, data = df)
+#mean(modAge$residuals)
