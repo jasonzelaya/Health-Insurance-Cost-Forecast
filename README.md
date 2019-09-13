@@ -1,7 +1,17 @@
 # Insurance Forecast
 
+#### --Status: Completed
+
 ## Problem Statement
 The purpose of this analysis is to predict individual health insurance costs charged by health insurance companies based on age, sex, BMI, children, smoking, and region.
+
+### Technologies
+* Python
+* Jupyter Notebook
+* Pandas
+* Numpy
+* Matplotlib
+* Seaborn
 
 ## Team Members
 * Jason Zelaya
