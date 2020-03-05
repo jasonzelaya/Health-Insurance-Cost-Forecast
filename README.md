@@ -2,7 +2,7 @@
 
 #### -- Status: Completed
 
-## Problem Statement
+## Purpose
 The purpose of this analysis is to predict individual health insurance costs charged by health insurance companies based on age, sex, BMI, children, smoking, and region.
 
 ### Methods Used
@@ -58,13 +58,13 @@ The model should conform to the assumptions of linear regression to be usable in
 
 ## ML Algorithm
 * Multi-linear regression (supervised learning)
-* pd.crosstab categorical variable sex smoker region to confirm values
-* check for typo
-* dollars, round decimals
-* range of age
-* incorrect entries
-* data validation = exploratory data analysis
-* data validation = cleaning the data
+* Pandas.crosstab categorical variable sex smoker region to confirm values
+* Check for typos
+* Dollars, round decimals
+* Range of age
+* Incorrect entries
+* Data validation = exploratory data analysis
+* Data validation = cleaning the data
 
 ## Contributing Members
 * Jason Zelaya
