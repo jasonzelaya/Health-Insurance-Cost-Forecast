@@ -50,7 +50,7 @@ Kaggle: https://www.kaggle.com/mirichoi0218/insurance
 **Note: The individual paying for the health insurance is referred to as the "beneficiary" in the definitions.
 
 ## Underlying Assumptions
-The model should conform to the assumptions of linear regression to be usable in practice. To confirm this we  will examine the data set to check:
+The model should conform to the assumptions of linear regression to be usable in practice. To confirm this we examined the data set to check:
 * The regression model is linear in parameters
 * The mean of residuals is zero
 * Homoscedasticity of residuals or equal variance
