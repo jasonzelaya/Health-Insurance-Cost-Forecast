@@ -1,22 +1,39 @@
-# Insurance Forecast
+# Health Insurance Forecast
 
-#### --Status: Completed
+#### -- Status: Completed
 
 ## Problem Statement
 The purpose of this analysis is to predict individual health insurance costs charged by health insurance companies based on age, sex, BMI, children, smoking, and region.
 
+### Methods Used
+* Supervised Machine Learning
+* Inferential Statistics
+* Descriptive Statistics
+* Machine Learning
+* Data Visualization
+* Predictive Modeling
+* Regression Analysis
+* Factor Analysis
+* Random Forest
+
 ### Technologies
 * Python
+* R
 * Jupyter Notebook
 * Pandas
-* Numpy
+* NumPy
 * Matplotlib
+* Scikit-learn
+* Graphviz
 * Seaborn
+* Yellowbrick
+* Pydot
 
-## Team Members
-* Jason Zelaya
-* Madeleine Merken
-* Shannon Chang
+## Needs of this project
+* Data exploration/descriptive statistics
+* Data processing/cleaning
+* Statistical modeling
+* Writeup/reporting
 
 ## Data Source
 Kaggle: https://www.kaggle.com/mirichoi0218/insurance
@@ -48,3 +65,11 @@ The model should conform to the assumptions of linear regression to be usable in
 * incorrect entries
 * data validation = exploratory data analysis
 * data validation = cleaning the data
+
+## Contributing Members
+* Jason Zelaya
+* Madeleine Merken
+* Shannon Chang
+
+## Contact
+* Jason.Zelaya474@gmail.com
