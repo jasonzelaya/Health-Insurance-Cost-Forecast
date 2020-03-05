@@ -1,4 +1,4 @@
-# Health Insurance Forecast
+# Health Insurance Cost Forecast
 
 #### -- Status: Completed
 
