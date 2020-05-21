@@ -66,10 +66,9 @@ The model should conform to the assumptions of linear regression to be usable in
 * Data validation = exploratory data analysis
 * Data validation = cleaning the data
 
-## Contributing Members
-* Jason Zelaya
-* Madeleine Merken
-* Shannon Chang
+## Other Contributing Members
+* [Madeleine Merken](https://github.com/CewtyCats)
+* [Shannon Chang](https://github.com/skwc224)
 
 ## Contact
-* Jason.Zelaya474@gmail.com
+Jason.Zelaya474@gmail.com
